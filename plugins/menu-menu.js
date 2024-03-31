@@ -604,9 +604,9 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-const vi = ['https://telegra.ph/file/7f0318607ccfdb6bcb66d.mp4',
-'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4',
-'https://telegra.ph/file/117391db9016a51f73618.mp4']
+const vi = ['https://telegra.ph/file/98b2519abcee837e683b8.mp4',
+'https://telegra.ph/file/98b2519abcee837e683b8.mp4',
+'https://telegra.ph/file/98b2519abcee837e683b8.mp4']
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
 	
 } catch (e) {
@@ -614,7 +614,7 @@ await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() 
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}}
 
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|اوامر|الاوامر|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
 //handler.register = true
 export default handler
 
